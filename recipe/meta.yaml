@@ -1,13 +1,13 @@
 {% set name = "txl-cell" %}
-{% set version = "0.2.14" %}
+{% set version = "0.2.15" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/txl_cell-{{ version }}.tar.gz
-  sha256: 8e03539f869d32be87d4c228aeb6de204e3533ed88d9bb67e14183cf9da594b1
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_cell-{{ version }}.tar.gz
+  sha256: 9ee1b672dcccffbe5820b32d83d2e66bac3c0c37115976e3460c7f68157c25a9
 
 build:
   noarch: python
