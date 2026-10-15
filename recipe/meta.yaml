@@ -1,14 +1,14 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-cell" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_cell-{{ version }}.tar.gz
-  sha256: 30c43c8c93481dc74e24cb5dcc8f628398e35555f5ede8b6dde4e483ff2d0890
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/txl_cell-{{ version }}.tar.gz
+  sha256: 8eb37dc2e0d51cdffb6749a22649f1c39446ca05a3da2fff24ed9ee632c4f1d0
 
 build:
   noarch: python
